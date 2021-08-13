@@ -39,7 +39,7 @@ const Login = (props) => {
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4">
                             <div className="social-login">
-                                <a className="google" href='https://trello-blameo.herokuapp.com/oauth2/authorize/google?redirect_uri=https://trello-blameo-fe.herokuapp.com/oauth2/redirect'>
+                                <a className="google" href='http://localhost:8080/oauth2/authorize/google?redirect_uri=http://localhost:3000/oauth2/redirect'>
                                     <img src={googleLogo} alt="Google" /> Log in with Google</a>
                             </div>
                             <div className="login-wrap py-5">

@@ -1,5 +1,5 @@
 
-const root = " https://trello-blameo.herokuapp.com/";
+const root = "http://localhost:8080/";
 
 const url = {
     urlLogin: root + "login",
